@@ -14,6 +14,12 @@
                 </div>
             </div>
         @endif
+      @else 
+       <div >
+        <a href="{{route('login')}}" class="float-right disabled:opacity-25 inline-flex items-center py-2.5 px-4 text-xs font-medium text-center text-white bg-sky-800 rounded-lg focus:ring-4 focus:ring-primary-200 dark:focus:ring-primary-900 hover:bg-primary-800">
+            Opinar
+        </a>
+    </div>  
     @endauth
 
     <article>
